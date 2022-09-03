@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Index page
+{% endblock title %}
+
+
+{% block body %}
+<h1>Home page</h1>
+<h3>{{ request.session.name}}</h3>
+{% endblock body %}
